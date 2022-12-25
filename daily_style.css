@@ -1,0 +1,48 @@
+
+body {
+    margin: 0;
+    background-image: url("./img/avanger.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+h1{ 
+    margin-bottom: 50px;
+    font-size: 70px;
+}
+p{
+    font-size: 20px;
+    color: black;
+}
+article {
+    position: relative;
+    top: 200px;
+    margin-left: 50px;
+}
+/* The navigation bar */
+.navbar {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: black;
+    width: 100%; 
+  }
+.navbar li {
+    float: right;
+}
+.navbar a {
+    margin-right: 70px;
+    display: block;
+    color: #f2f2f2;
+    text-decoration: none;
+    font-size: 50px;
+  }
+.navbar #logo{
+    width: 100px;
+    height: 100px;
+}
+footer{
+    position: relative;
+    top: 200px;
+    margin-left: 50px;
+    margin-top: 15px;
+    font-size: 20px;
+}
